@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Two Column Layout with Slider and Text</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="kh-container">
+  <div class="kh-slider">
+    <div class="kh-slider-nav">
+      <button class="kh-prev">&#10094;</button>
+      <button class="kh-next">&#10095;</button>
+    </div>
+    <div class="kh-slider-content">
+      <img src="image1.jpg" alt="Slider Image 1">
+      <img src="image2.jpg" alt="Slider Image 2">
+      <img src="image3.jpg" alt="Slider Image 3">
+    </div>
+  </div>
+  <div class="kh-text">
+    <h2>Heading</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus aliquam, consectetur elit at, eleifend ex. Sed sit amet dapibus nisi. Ut consectetur nisi in felis rhoncus eleifend.</p>
+  </div>
+</div>
+
+</body>
+</html>
